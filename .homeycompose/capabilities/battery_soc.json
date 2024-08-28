@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Battery SoC",
-    "nl": "Batterij-percentage"
+    "nl": "Batterij-percentage",
+    "pl": "Procent baterii"
   },
   "icon": "/assets/capabilities/battery-soc.svg",
   "units": {
@@ -10,7 +11,8 @@
   },
   "insights": true,
   "desc": {
-    "en": "Battery SoC percentage"
+    "en": "Battery SoC percentage",
+    "pl": "Procent SoC baterii"
   },
   "chartType": "stepLine",
   "decimals": 2,

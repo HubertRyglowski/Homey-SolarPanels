@@ -1,20 +1,22 @@
 [
   {
     "type": "group",
-    "label": { "en": "Growatt credentials" },
+    "label": { "en": "Growatt credentials", "pl": "Dane uwierzytelniające Growatt" },
     "children": [
       {
         "id": "username",
         "type": "text",
         "label": {
-          "en": "Username"
+          "en": "Username",
+          "pl": "Nazwa Użytkownika"
         }
       },
       {
         "id": "password",
         "type": "password",
         "label": {
-          "en": "Password"
+          "en": "Password",
+          "pl": "Hasło"
         }
       }
     ]

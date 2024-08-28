@@ -7,11 +7,13 @@
   "brandColor": "#0c1845",
   "name": {
     "en": "Solar Panels",
-    "nl": "Zonnepanelen"
+    "nl": "Zonnepanelen",
+    "pl": "Panele Słoneczne"
   },
   "description": {
     "en": "Let the sun power your home",
-    "nl": "Laat de zon je huis van stroom voorzien"
+    "nl": "Laat de zon je huis van stroom voorzien",
+    "pl": "Niech słońce zasili Twój dom"
   },
   "category": "energy",
   "platforms": [
@@ -27,6 +29,11 @@
     "nl": [
       "zonnepanelen",
       "solar",
+      "pv"
+    ],
+    "pl": [
+      "panele słoneczne",
+      "panele",
       "pv"
     ]
   },
@@ -54,6 +61,11 @@
       {
         "name": "Dries Hooghe",
         "email": "dries@drieshooghe.com"
+      }
+    ],
+    "translators": [
+      {
+        "name": "🇵🇱 Hubert Ryglowski"
       }
     ]
   },
@@ -114,21 +126,24 @@
         {
           "type": "group",
           "label": {
-            "en": "Enphase Enlighten credentials"
+            "en": "Enphase Enlighten credentials",
+            "pl": "Dane uwierzytelniające Enphase Enlighten"
           },
           "children": [
             {
               "id": "uid",
               "type": "text",
               "label": {
-                "en": "User ID"
+                "en": "User ID",
+                "pl": "Id Użytkownika"
               }
             },
             {
               "id": "key",
               "type": "password",
               "label": {
-                "en": "API key"
+                "en": "API key",
+                "pl": "Klucz API"
               }
             }
           ]
@@ -138,17 +153,20 @@
           "type": "number",
           "label": {
             "en": "Check interval",
-            "nl": "Controle-interval"
+            "nl": "Controle-interval",
+            "pl": "Sprawdź interwał"
           },
           "hint": {
             "en": "Increase this value if you are using other apps that use the Enphase API. A value lower than 5 is not recommended as it might cause the app to hit Enphase rate limits.",
-            "nl": "Verhoog deze waarde als je andere apps gebruikt die de Enphase API gebruiken. Een waarde lager dan 5 wordt niet aangeraden omdat de app tegen de door Enphase gestelde limieten aan kan lopen."
+            "nl": "Verhoog deze waarde als je andere apps gebruikt die de Enphase API gebruiken. Een waarde lager dan 5 wordt niet aangeraden omdat de app tegen de door Enphase gestelde limieten aan kan lopen.",
+            "pl": "Zwiększ tę wartość, jeśli używasz innych aplikacji, które używają interfejsu API Enphase. Wartość niższa niż 5 nie jest zalecana, ponieważ może spowodować, że aplikacja osiągnie limity szybkości Enphase."
           },
           "value": 5,
           "min": 5,
           "units": {
             "en": "minutes",
-            "nl": "minuten"
+            "nl": "minuten",
+            "pl": "minut"
           }
         }
       ]
@@ -193,25 +211,29 @@
         "meter_power": {
           "title": {
             "en": "Energy yield (today)",
-            "nl": "Energieproductie (vandaag)"
+            "nl": "Energieproductie (vandaag)",
+            "pl": "Wydajność energetyczna (dzisiaj)"
           }
         },
         "meter_power.consumption": {
           "title": {
             "en": "Energy usage (today)",
-            "nl": "Energieverbruik (vandaag)"
+            "nl": "Energieverbruik (vandaag)",
+            "pl": "Zużycie energii (dzisiaj)"
           }
         },
         "measure_power": {
           "title": {
             "en": "Power (production)",
-            "nl": "Vermogen (productie)"
+            "nl": "Vermogen (productie)",
+            "pl": "Prąd (produkcja)"
           }
         },
         "measure_power.consumption": {
           "title": {
             "en": "Power (consumption)",
-            "nl": "Vermogen (gebruik)"
+            "nl": "Vermogen (gebruik)",
+            "pl": "Prąd (zużycie)"
           }
         }
       },
@@ -219,7 +241,8 @@
     },
     {
       "name": {
-        "en": "Enphase IQ Gateway"
+        "en": "Enphase IQ Gateway",
+        "pl": "Bramka Enphase IQ"
       },
       "class": "solarpanel",
       "capabilities": [
@@ -263,25 +286,29 @@
         "meter_power": {
           "title": {
             "en": "Daily energy yield",
-            "nl": "Energie-opwek vandaag"
+            "nl": "Energie-opwek vandaag",
+            "pl": "Dzienny uzysk energii"
           }
         },
         "measure_power": {
           "title": {
             "en": "Power (production)",
-            "nl": "Vermogen (productie)"
+            "nl": "Vermogen (productie)",
+            "pl": "Prąd (produkcja)"
           }
         },
         "measure_power.consumption": {
           "title": {
             "en": "Power (self-consumption)",
-            "nl": "Vermogen (eigengebruik)"
+            "nl": "Vermogen (eigengebruik)",
+            "pl": "Prąd (samowystarczalność)"
           }
         },
         "measure_power.grid": {
           "title": {
             "en": "Power (grid)",
-            "nl": "Vermogen (net-afname)"
+            "nl": "Vermogen (net-afname)",
+            "pl": "Prąd (sieć)"
           }
         }
       },
@@ -290,21 +317,24 @@
         {
           "type": "group",
           "label": {
-            "en": "Enphase Enlighten credentials"
+            "en": "Enphase Enlighten credentials",
+            "pl": "Dane uwierzytelniające Enphase Enlighten"
           },
           "children": [
             {
               "id": "username",
               "type": "text",
               "label": {
-                "en": "Username"
+                "en": "Username",
+                "pl": "Nazwa Użytkownika"
               }
             },
             {
               "id": "password",
               "type": "password",
               "label": {
-                "en": "Password"
+                "en": "Password",
+                "pl": "Hasło"
               }
             }
           ]
@@ -356,21 +386,24 @@
         {
           "type": "group",
           "label": {
-            "en": "Growatt credentials"
+            "en": "Growatt credentials",
+            "pl": "Dane uwierzytelniające Growatt"
           },
           "children": [
             {
               "id": "username",
               "type": "text",
               "label": {
-                "en": "Username"
+                "en": "Username",
+                "pl": "Nazwa Użytkownika"
               }
             },
             {
               "id": "password",
               "type": "password",
               "label": {
-                "en": "Password"
+                "en": "Password",
+                "pl": "Hasło"
               }
             }
           ]
@@ -417,25 +450,29 @@
         "meter_power": {
           "title": {
             "en": "Energy yield (today)",
-            "nl": "Energieproductie (vandaag)"
+            "nl": "Energieproductie (vandaag)",
+            "pl": "Wydajność energetyczna (dzisiaj)"
           }
         },
         "meter_power.consumption": {
           "title": {
             "en": "Energy usage (today)",
-            "nl": "Energieverbruik (vandaag)"
+            "nl": "Energieverbruik (vandaag)",
+            "pl": "Zużycie energii (dzisiaj)"
           }
         },
         "measure_power": {
           "title": {
             "en": "Power (production)",
-            "nl": "Vermogen (productie)"
+            "nl": "Vermogen (productie)",
+            "pl": "Prąd (produkcja)"
           }
         },
         "measure_power.consumption": {
           "title": {
             "en": "Power (consumption)",
-            "nl": "Vermogen (gebruik)"
+            "nl": "Vermogen (gebruik)",
+            "pl": "Prąd (zużycie)"
           }
         }
       },
@@ -444,14 +481,16 @@
         {
           "type": "group",
           "label": {
-            "en": "PVOutput login details"
+            "en": "PVOutput login details",
+            "pl": "Dane logowania PVOutput"
           },
           "children": [
             {
               "id": "key",
               "type": "password",
               "label": {
-                "en": "Read-only API key"
+                "en": "Read-only API key",
+                "pl": "Klucz API tylko do odczytu"
               }
             }
           ]
@@ -461,26 +500,31 @@
           "type": "number",
           "label": {
             "en": "Check interval",
-            "nl": "Controle-interval"
+            "nl": "Controle-interval",
+            "pl": "Sprawdź interwał"
           },
           "hint": {
             "en": "Increase this value if you are using other apps that use the PvOutput API. Decrease this value if you are in PVOutput Donation mode.",
-            "nl": "Verhoog deze waarde als je andere apps gebruikt die de PVOutput API gebruiken. Verlaag deze waarde als je aan PVOutput doneert."
+            "nl": "Verhoog deze waarde als je andere apps gebruikt die de PVOutput API gebruiken. Verlaag deze waarde als je aan PVOutput doneert.",
+            "pl": "Zwiększ tę wartość, jeśli używasz innych aplikacji, które używają interfejsu API PvOutput. Zmniejsz tę wartość, jeśli jesteś w trybie darowizny PVOutput."
           },
           "value": 5,
           "min": 1,
           "units": {
             "en": "minutes",
-            "nl": "minuten"
+            "nl": "minuten",
+            "pl": "minuty"
           }
         },
         {
           "type": "group",
           "label": {
-            "en": "Advanced settings"
+            "en": "Advanced settings",
+            "pl": "Ustawienia zaawansowane"
           },
           "hint": {
-            "en": "If you are a PVOutput donator and use extended fields, set them up here."
+            "en": "If you are a PVOutput donator and use extended fields, set them up here.",
+            "pl": "Jeśli jesteś darczyńcą PVOutput i używasz pól rozszerzonych, skonfiguruj je tutaj."
           },
           "children": [
             {
@@ -488,7 +532,8 @@
               "type": "checkbox",
               "value": false,
               "label": {
-                "en": "Use PVOutput extended fields"
+                "en": "Use PVOutput extended fields",
+                "pl": "Użyj rozszerzonych pól PVOutput"
               }
             },
             {
@@ -496,7 +541,8 @@
               "type": "dropdown",
               "value": "-1",
               "label": {
-                "en": "Field ID for battery percentage"
+                "en": "Field ID for battery percentage",
+                "pl": "Użyj rozszerzonych pól PVOutput"
               },
               "values": [
                 {
@@ -508,37 +554,43 @@
                 {
                   "id": "7",
                   "label": {
-                    "en": "Field 7"
+                    "en": "Field 7",
+                    "pl": "Pole 7"
                   }
                 },
                 {
                   "id": "8",
                   "label": {
-                    "en": "Field 8"
+                    "en": "Field 8",
+                    "pl": "Pole 8"
                   }
                 },
                 {
                   "id": "9",
                   "label": {
-                    "en": "Field 9"
+                    "en": "Field 9",
+                    "pl": "Pole 9"
                   }
                 },
                 {
                   "id": "10",
                   "label": {
-                    "en": "Field 10"
+                    "en": "Field 10",
+                    "pl": "Pole 10"
                   }
                 },
                 {
                   "id": "11",
                   "label": {
-                    "en": "Field 11"
+                    "en": "Field 11",
+                    "pl": "Pole 11"
                   }
                 },
                 {
                   "id": "12",
                   "label": {
-                    "en": "Field 12"
+                    "en": "Field 12",
+                    "pl": "Pole 12"
                   }
                 }
               ]
@@ -590,49 +642,57 @@
         "measure_temperature": {
           "title": {
             "en": "Inverter temperature",
-            "nl": "Temperatuur omvormer"
+            "nl": "Temperatuur omvormer",
+            "pl": "Temperatura falownika"
           }
         },
         "meter_power": {
           "title": {
             "en": "Energy yield (today)",
-            "nl": "Energieproductie (vandaag)"
+            "nl": "Energieproductie (vandaag)",
+            "pl": "Wydajność energetyczna (dzisiaj)"
           }
         },
         "meter_power.consumption": {
           "title": {
             "en": "Energy usage (today)",
-            "nl": "Energieverbruik (vandaag)"
+            "nl": "Energieverbruik (vandaag)",
+            "pl": "Zużycie energii (dzisiaj)"
           }
         },
         "meter_power.total": {
           "title": {
             "en": "Energy yield (total)",
-            "nl": "Energieproductie (totaal)"
+            "nl": "Energieproductie (totaal)",
+            "pl": "Wydajność energetyczna (całkowita)"
           }
         },
         "measure_power": {
           "title": {
             "en": "Power (production)",
-            "nl": "Vermogen (productie)"
+            "nl": "Vermogen (productie)",
+            "pl": "Prąd (produkcja)"
           }
         },
         "measure_voltage.ac": {
           "title": {
             "en": "Voltage (AC side)",
-            "nl": "Spanning (AC-zijde)"
+            "nl": "Spanning (AC-zijde)",
+            "pl": "Napięcie (strona AC)"
           }
         },
         "measure_voltage.dc": {
           "title": {
             "en": "Voltage (DC side)",
-            "nl": "Spanning (DC-zijde)"
+            "nl": "Spanning (DC-zijde)",
+            "pl": "Napięcie (strona DC)"
           }
         },
         "measure_power.consumption": {
           "title": {
             "en": "Power (consumption)",
-            "nl": "Vermogen (gebruik)"
+            "nl": "Vermogen (gebruik)",
+            "pl": "Prąd (zużycie)"
           }
         }
       },
@@ -642,7 +702,8 @@
           "id": "key",
           "type": "password",
           "label": {
-            "en": "SolarEdge (read-only) API key"
+            "en": "SolarEdge (read-only) API key",
+            "pl": "Klucz API SolarEdge (tylko do odczytu)"
           }
         },
         {
@@ -650,17 +711,20 @@
           "type": "number",
           "label": {
             "en": "Check interval",
-            "nl": "Controle-interval"
+            "nl": "Controle-interval",
+            "pl": "Sprawdź interwał"
           },
           "hint": {
             "en": "Increase this value if you are using other apps that use the SolarEdge API. A value lower than 15 is not recommended as it might cause the app to hit SolarEdge rate limits.",
-            "nl": "Verhoog deze waarde als je andere apps gebruikt die de SolarEdge API gebruiken. Een waarde lager dan 15 wordt niet aangeraden omdat de app tegen de door SolarEdge gestelde limieten aan kan lopen."
+            "nl": "Verhoog deze waarde als je andere apps gebruikt die de SolarEdge API gebruiken. Een waarde lager dan 15 wordt niet aangeraden omdat de app tegen de door SolarEdge gestelde limieten aan kan lopen.",
+            "pl": "Zwiększ tę wartość, jeśli używasz innych aplikacji, które używają API SolarEdge. Wartość niższa niż 15 nie jest zalecana, ponieważ może spowodować, że aplikacja osiągnie limity szybkości SolarEdge."
           },
           "value": 15,
           "min": 10,
           "units": {
             "en": "minutes",
-            "nl": "minuten"
+            "nl": "minuten",
+            "pl": "minut"
           }
         }
       ]
@@ -710,21 +774,24 @@
         {
           "type": "group",
           "label": {
-            "en": "Tigo credentials"
+            "en": "Tigo credentials",
+            "pl": "Dane uwierzytelniające Tigo"
           },
           "children": [
             {
               "id": "username",
               "type": "text",
               "label": {
-                "en": "Username"
+                "en": "Username",
+                "pl": "Nazwa Użytkownika"
               }
             },
             {
               "id": "password",
               "type": "password",
               "label": {
-                "en": "Password"
+                "en": "Password",
+                "pl": "Hasło"
               }
             }
           ]
@@ -737,7 +804,8 @@
       "type": "number",
       "title": {
         "en": "Battery SoC",
-        "nl": "Batterij-percentage"
+        "nl": "Batterij-percentage",
+        "pl": "Procent baterii"
       },
       "icon": "/assets/capabilities/battery-soc.svg",
       "units": {
@@ -745,7 +813,8 @@
       },
       "insights": true,
       "desc": {
-        "en": "Battery SoC percentage"
+        "en": "Battery SoC percentage",
+        "pl": "Procent SoC baterii"
       },
       "chartType": "stepLine",
       "decimals": 2,

@@ -1,6 +1,7 @@
 {
   "name": {
-    "en": "Enphase IQ Gateway"
+    "en": "Enphase IQ Gateway",
+    "pl": "Bramka Enphase IQ"
   },
   "class": "solarpanel",
   "capabilities": [
@@ -40,25 +41,29 @@
     "meter_power": {
       "title": {
         "en": "Daily energy yield",
-        "nl": "Energie-opwek vandaag"
+        "nl": "Energie-opwek vandaag",
+        "pl": "Dzienny uzysk energii"
       }
     },
     "measure_power": {
       "title": {
         "en": "Power (production)",
-        "nl": "Vermogen (productie)"
+        "nl": "Vermogen (productie)",
+        "pl": "Prąd (produkcja)"
       }
     },
     "measure_power.consumption": {
       "title": {
         "en": "Power (self-consumption)",
-        "nl": "Vermogen (eigengebruik)"
+        "nl": "Vermogen (eigengebruik)",
+        "pl": "Prąd (samowystarczalność)"
       }
     },
     "measure_power.grid": {
       "title": {
         "en": "Power (grid)",
-        "nl": "Vermogen (net-afname)"
+        "nl": "Vermogen (net-afname)",
+        "pl": "Prąd (sieć)"
       }
     }
   }

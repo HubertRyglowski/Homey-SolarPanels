@@ -6,11 +6,13 @@
   "brandColor": "#0c1845",
   "name": {
     "en": "Solar Panels",
-    "nl": "Zonnepanelen"
+    "nl": "Zonnepanelen",
+    "pl": "Panele Słoneczne"
   },
   "description": {
     "en": "Let the sun power your home",
-    "nl": "Laat de zon je huis van stroom voorzien"
+    "nl": "Laat de zon je huis van stroom voorzien",
+    "pl": "Niech słońce zasili Twój dom"
   },
   "category": "energy",
   "platforms": [
@@ -26,6 +28,11 @@
     "nl": [
       "zonnepanelen",
       "solar",
+      "pv"
+    ],
+    "pl": [
+      "panele słoneczne",
+      "panele",
       "pv"
     ]
   },
@@ -53,6 +60,11 @@
       {
         "name": "Dries Hooghe",
         "email": "dries@drieshooghe.com"
+      }
+    ],
+    "translators": [
+      {
+        "name": "🇵🇱 Hubert Ryglowski"
       }
     ]
   },
